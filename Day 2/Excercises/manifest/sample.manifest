@@ -1,0 +1,22 @@
+project custom/sample
+  
+lib_source=/nedbank/custom/puttyide/bbd-stdfront/build/lib/Debug
+lib_target=/nedbank/custom/puttyide/bbd-stdfront/build/lib
+
+artifact ${lib_target}
+    ${lib_source}/bbd_datetime.lib
+    ${lib_source}/bbd_filesystem.lib
+    ${lib_source}/bbd_io.lib
+    ${lib_source}/bbd_math.lib
+    ${lib_source}/bbd_util.lib
+    ${lib_source}/expat.lib
+    ${lib_source}/loki.lib
+    ${lib_source}/main.lib
+    ${lib_source}/oci11.lib
+    ${lib_source}/pumq.lib
+    ${lib_source}/puttyutil20.lib
+    ${lib_source}/puttyutil25.lib
+    ${lib_source}/puttyutil27.lib
+    ${lib_source}/snap2.lib
+    ${lib_source}/ti.lib
+    ${lib_source}/zlib.lib
